@@ -4,7 +4,6 @@ author: rick-anderson
 description: Learn how to create backend services using ASP.NET Core MVC to support native mobile apps.
 ms.author: riande
 ms.date: 2/12/2021
-no-loc: ["Blazor Hybrid", Home, Privacy, Kestrel, appsettings.json, "ASP.NET Core Identity", cookie, Cookie, Blazor, "Blazor Server", "Blazor WebAssembly", "Identity", "Let's Encrypt", Razor, SignalR]
 uid: mobile/native-mobile-backend
 ---
 # Create backend services for native mobile apps with ASP.NET Core
@@ -39,7 +38,7 @@ To test it out yourself against the ASP.NET Core app created in the next section
 
 Android emulators do not run on the local machine and use a loopback IP (10.0.2.2) to communicate with the local machine. Leverage [Xamarin.Essentials DeviceInfo](/xamarin/essentials/device-information/) to detect what operating the system is running to use the correct URL.
 
-Navigate to the [`TodoREST`](https://github.com/xamarin/xamarin-forms-samples/tree/main/WebServices/TodoREST/TodoREST) project and open the [`Constants.cs`](https://github.com/xamarin/xamarin-forms-samples/blob/main/WebServices/TodoREST/TodoREST/Constants.cs) file. The *Constants.cs* file contains the following configuration.
+Navigate to the [`TodoREST`](https://github.com/xamarin/xamarin-forms-samples/tree/main/WebServices/TodoREST/TodoREST) project and open the [`Constants.cs`](https://github.com/xamarin/xamarin-forms-samples/blob/main/WebServices/TodoREST/TodoREST/Constants.cs) file. The `Constants.cs` file contains the following configuration.
 
 :::code language="csharp" source="~/../xamarin-forms-samples/WebServices/TodoREST/TodoREST/Constants.cs" highlight="13":::
 
@@ -159,5 +158,5 @@ Once you've identified a common policy for your APIs, you can usually encapsulat
 
 - [Xamarin.Forms: Web Service Authentication](/xamarin/xamarin-forms/data-cloud/authentication/)
 - [Xamarin.Forms: Consume a RESTful Web Service](/xamarin/xamarin-forms/data-cloud/web-services/rest)
-- [Microsoft Learn: Consume REST web services in Xamarin Apps](/learn/modules/consume-rest-services/)
-- [Microsoft Learn: Create a web API with ASP.NET Core](/learn/modules/build-web-api-aspnet-core/)
+- [Consume REST web services in Xamarin Apps](/training/modules/consume-rest-services/)
+- [Create a web API with ASP.NET Core](/training/modules/build-web-api-aspnet-core/)
